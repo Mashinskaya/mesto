@@ -1,0 +1,6 @@
+.cards__container {
+  display: flex;
+  justify-content: space-between;
+  width: 246px;
+  margin: 0;
+}

@@ -11,3 +11,11 @@
 @import url(../blocks/profile/profile__subtitle.css);
 @import url(../blocks/profile/profile__info.css);
 @import url(../blocks/profile/profile__add-button.css);
+@import url(../blocks/cards/cards.css);
+@import url(../blocks/cards/cards__image.css);
+@import url(../blocks/cards/cards__item.css);
+@import url(../blocks/cards/cards__title.css);
+@import url(../blocks/cards/cards__container.css);
+@import url(../blocks/cards/cards__heart.css);
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/footer__copyright.css);
