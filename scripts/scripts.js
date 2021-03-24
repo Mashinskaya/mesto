@@ -1,9 +1,9 @@
-const popup = document.querySelector('.popup');
+let popup = document.querySelector('.popup');
 
-const openPopupBtn = document.getElementById('open_popup_btn');
+let openPopupBtn = document.getElementById('open_popup_btn');
 
-const closePopupBtn = document.querySelector('.popup__close-button');
-const safePopupBtn = document.querySelector('.popup__safe-button');
+let closePopupBtn = document.querySelector('.popup__close-button');
+let safePopupBtn = document.querySelector('.popup__safe-button');
 
 function openPopup() {
   popup.classList.add('popup__visible')
