@@ -25,15 +25,15 @@ safePopupBtn.addEventListener('click', function() {
 });
 
 let formElement = document.querySelector('.popup__content');
-let message = document.querySelector('.profile__title');
-let message = document.querySelector('.profile__subtitle');
+let nameInput = document.querySelector('.profile__title');
+let jobInput = document.querySelector('.profile__subtitle');
+let nameElement = document.querySelector('.popup__name');
+let jobElement = document.querySelector('.popup__job');
 
-
-let nameInput = document.querySelector('.popup__name');
-let jobInput = document.querySelector('.popup__job');
-
-form.onsubmit = function(evt) {
+function formSubmitHandler (evt) {
   evt.preventDefault();
-  message.textContent = nameInput.value;
-  message.textContent = jobInput.value;
+  nameInput.textContent = nameElement.value;
+  jobInput.textContent = jobElement.value;
 };
+
+formElement.addEventListener('submit', formSubmitHandler); 
