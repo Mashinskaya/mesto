@@ -5,3 +5,11 @@
   grid-template-rows: repeat(2. 1fr);
   padding: 47px 200px 0;
 }
+
+@media screen and (max-width: 319px) {
+  .cards {
+  padding: 53px 19px 0;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 20px;
+}
+}

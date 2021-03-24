@@ -2,3 +2,9 @@
   width: 169px;
   height: 127px;
 }
+
+@media screen and (max-width: 319px) {
+  .profile__avatar {
+    margin-left: 59px;
+}
+}
