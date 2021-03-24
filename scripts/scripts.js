@@ -24,20 +24,16 @@ safePopupBtn.addEventListener('click', function() {
   closePopup()
 });
 
-/*
-
 let formElement = document.querySelector('.popup__content');
+let message = document.querySelector('.profile__title');
+let message = document.querySelector('.profile__subtitle');
+
 
 let nameInput = document.querySelector('.popup__name');
 let jobInput = document.querySelector('.popup__job');
 
-
-function formSubmitHandler(evt) {
+form.onsubmit = function(evt) {
   evt.preventDefault();
-
-  nameInput.textContent = nameInput.value;
-  jobInput.textContent = jobInput.value;
-  }
-
-formElement.addEventListener('submit', formSubmitHandler); 
-*/
+  message.textContent = nameInput.value;
+  message.textContent = jobInput.value;
+};
