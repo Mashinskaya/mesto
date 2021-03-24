@@ -2,11 +2,14 @@
   border: 1px solid #FFFFFF;
   padding: 7px;
   width: 10px;
+  display: inline;
+  margin-left: 18px;
 }
 
 @media screen and (max-width: 319px) {
   .profile__vector {
     width: 5px;
     height: 5px;
+    margin-left: 10px;
 }
 }
