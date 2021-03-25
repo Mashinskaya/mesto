@@ -3,7 +3,7 @@ let popup = document.querySelector('.popup');
 let openPopupBtn = document.getElementById('open_popup_btn');
 
 let closePopupBtn = document.querySelector('.popup__close-button');
-let safePopupBtn = document.querySelector('.popup__safe-button');
+let savePopupBtn = document.querySelector('.popup__save-button');
 
 function openPopup() {
   popup.classList.add('popup__visible')
@@ -20,7 +20,7 @@ closePopupBtn.addEventListener('click', function() {
   closePopup()
 });
 
-safePopupBtn.addEventListener('click', function() {
+savePopupBtn.addEventListener('click', function() {
   closePopup()
 });
 
