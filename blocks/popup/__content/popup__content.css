@@ -1,5 +1,5 @@
 .popup__content {
-  position: absolute;
+  position: relative;
   max-width: 430px;
   max-height: 330px;
   left: 425px;
@@ -8,6 +8,7 @@
   box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.15);
   border-radius: 10px;
   padding-bottom: 55px;
+  z-index: 3;
 }
 
 @media screen and (max-width:319px) {

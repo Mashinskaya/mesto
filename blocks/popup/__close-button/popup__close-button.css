@@ -3,6 +3,8 @@
   right: -35px;
   top: -35px;
   cursor: pointer;
+  z-index: 5;
+
 }
 
 @media screen and (max-width: 319px) {
