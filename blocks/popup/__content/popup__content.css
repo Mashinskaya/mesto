@@ -11,12 +11,12 @@
   z-index: 3;
 }
 
-@media screen and (max-width:319px) {
+@media screen and (max-width: 1279px) {
   .popup__content {
     max-width: 282px;
     max-height: 322px;
     left: 19px;
     top: 123px;
     padding-bottom: 25px;
-}
+  }
 }
