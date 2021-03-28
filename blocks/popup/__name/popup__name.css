@@ -9,9 +9,9 @@
   border: 0px; 
 }
 
-@media screen and (max-width: 1279px) {
+@media screen and (max-width: 900px) {
   .popup__name {
     width: 238px;
     margin: 75px 22px 0;
-}
+  }
 }

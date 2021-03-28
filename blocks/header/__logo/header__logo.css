@@ -1,8 +1,13 @@
 .header__logo {
   align-self: flex-start;
+  opacity: 1.0;
 }
 
-@media screen and (max-width: 1279px) {
+.header__logo:hover {
+  opacity: 0.5;
+}
+
+@media screen and (max-width: 900px) {
   .header__logo {
     width: 104px;
     height: 25px;

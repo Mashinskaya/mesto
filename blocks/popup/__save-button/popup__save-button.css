@@ -10,13 +10,14 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 22px;
+  border: 0;
 }
 
 .popup__save-button:hover {
-  opacity: 0.6;
+  opacity: 0.8;
 }
 
-@media screen and (max-width: 1279px) {
+@media screen and (max-width: 900px) {
   .popup__save-button {
     width: 238px;
     height: 46px;

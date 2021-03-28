@@ -1,7 +1,7 @@
 .profile__items {
-  width: 129px;
+  width: 169px;
   height: 127px;
+  padding: 0 15px;
   border-radius: 50%;
   box-sizing: border-box;
-  margin: 0 auto;
 }

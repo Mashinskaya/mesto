@@ -7,25 +7,15 @@
     <title>Mesto</title>
 </head>
   <body class="page">
-    <div class="popup">
-      <div class="popup__overlay"></div>
-      <form class="popup__content">
-        <img src="./images/Close_Icon.svg" class="popup__close-button" alt="креcтик">
-        <div class="popup__title">Редактировать профиль</div>
-        <input type="text" class="popup__name">
-        <div class="popup__line"></div>
-        <input type="text" class="popup__job">
-        <div class="popup__line"></div>
-        <button type="submit" class="popup__save-button">Сохранить</button>
-      </form>
-    </div>
     <header class="header">
       <a href="#" class="header__logo" target="_blank" rel="noopener"><img src="./images/Vector.svg" alt="место"></a>
     </header>
     <main class="main">
       <section class="profile">
         <div class="profile__avatar">
-          <img src="images/image.png" class="profile__items" alt="фото профиля"> 
+          <div class="profile__border">
+            <img src="images/image.png" class="profile__items" alt="фото профиля"> 
+          </div>
         </div>
         <div class="profile__info">
           <div class="profile__container">
@@ -83,6 +73,18 @@
     <footer class="footer">
       <p class="footer__copyright">&copy; 2021 Mesto Russia</p>
     </footer>
+    <div class="popup">
+      <div class="popup__overlay"></div>
+      <form class="popup__content">
+        <img src="./images/Close_Icon.svg" class="popup__close-button" alt="креcтик">
+        <div class="popup__title">Редактировать профиль</div>
+        <input type="text" class="popup__name">
+        <div class="popup__line"></div>
+        <input type="text" class="popup__job">
+        <div class="popup__line"></div>
+        <button type="submit" class="popup__save-button">Сохранить</button>
+      </form>
+    </div>
     <script src="./scripts/scripts.js"></script>
   </body>
 </html>

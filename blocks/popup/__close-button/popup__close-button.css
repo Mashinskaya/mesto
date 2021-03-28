@@ -4,15 +4,18 @@
   top: -35px;
   cursor: pointer;
   z-index: 5;
-
 }
 
-@media screen and (max-width: 1279px) {
+.popup__close-button:hover {
+  opacity: 0.8;
+}
+
+@media screen and (max-width: 900px) {
   .popup__close-button {
     right: 0;
     top: -50px;
     width: 26px;
     height: 26px;
-}
+  }
 }
 

@@ -7,12 +7,9 @@
   height: 14px;
   width: 358px;
   border: 0px;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  overflow: hidden;
 }
 
-@media screen and (max-width: 1279px) {
+@media screen and (max-width: 900px) {
   .popup__job {
     width: 238px;
     margin: 30px 22px 0;
