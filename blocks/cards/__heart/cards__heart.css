@@ -3,8 +3,15 @@ margin-top: 30px;
 width: 22px;
 height: 19px;
 cursor: pointer;
+border: 0;
+padding: 0;
+background-image: url(../../../images/heart.svg);
 }
 
 .cards__heart:hover {
   opacity: 0.5;
+}
+
+.cards__heart-active {
+  background-image: url(../../../images/blackheart.svg);
 }

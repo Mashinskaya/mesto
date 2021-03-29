@@ -12,60 +12,57 @@
     </header>
     <main class="main">
       <section class="profile">
-        <div class="profile__avatar">
-          <div class="profile__border">
-            <img src="images/image.png" class="profile__items" alt="фото профиля"> 
-          </div>
-        </div>
+        <img src="images/image.png" class="profile__items" alt="фото профиля">
         <div class="profile__info">
           <div class="profile__container">
-           <h1 class="profile__title">Жак-Ив Кусто<img src="./images/Vector(1).svg" class="profile__vector" id="open_popup_btn" alt="ручка"></h1>
-           <p class="profile__subtitle">Исследователь океана</p> 
+           <h1 class="profile__title">Жак-Ив Кусто</h1>
+           <button type="button" class="profile__vector open_popup_btn"><img src="./images/pen.svg"></button>  
           </div> 
-          <div class="profile__add-button"><img src="./images/Vector(2).svg" alt="плюс"></div> 
+           <p class="profile__subtitle">Исследователь океана</p>  
         </div>  
+        <div class="profile__add-button"><img src="./images/Vector(2).svg" alt="плюс"></div>
       </section>
       <section class="cards">
         <article class="cards__item">
           <img src="./images/kirill-pershin-1088404-unsplash.png" class="cards__image" alt="замок">
           <div class="cards__container">
             <span class="cards__title">Карачаевск</span>
-            <div class="cards__heart"><img src="./images/Vector(3).svg" alt="сердечко"></div>
+            <button type="button" class="cards__heart"></button>
           </div>
         </article>  
         <article class="cards__item">
           <img src="./images/kirill-pershin-1404681-unsplash.png" class="cards__image" alt="долина">
           <div class="cards__container">
             <span class="cards__title">Гора Эльбрус</span>
-            <div class="cards__heart"><img src="./images/Vector(3).svg" alt="сердечко"></div>
+            <button type="button" class="cards__heart"></button>
           </div>
         </article>  
         <article class="cards__item">
           <img src="./images/kirill-pershin-1556355-unsplash.png" class="cards__image" alt="гора">
           <div class="cards__container">
             <span class="cards__title">Домбай</span>
-            <div class="cards__heart"><img src="./images/Vector(3).svg" alt="сердечко"></div>
+            <button type="button" class="cards__heart"></button>
           </div>
         </article>  
         <article class="cards__item">
           <img src="./images/kirill-pershin-1404681-unsplash.png" class="cards__image" alt="замок">
           <div class="cards__container">
             <span class="cards__title">Гора Эльбрус</span>
-            <div class="cards__heart"><img src="./images/Vector(3).svg" alt="сердечко"></div>
+            <button type="button" class="cards__heart"></button>
           </div>
         </article>  
         <article class="cards__item">
           <img src="./images/kirill-pershin-1556355-unsplash.png" class="cards__image" alt="замок">
           <div class="cards__container">
             <h2 class="cards__title">Домбай</h2>
-            <div class="cards__heart"><img src="./images/Vector(3).svg" alt="сердечко"></div>
+            <button type="button" class="cards__heart"></button>
           </div>
         </article>  
         <article class="cards__item">
           <img src="./images/kirill-pershin-1088404-unsplash.png" class="cards__image" alt="замок">
           <div class="cards__container">
             <span class="cards__title">Карачаево-Черкессия</span>
-            <div class="cards__heart"><img src="./images/Vector(3).svg" alt="сердечко"></div>
+            <button type="button" class="cards__heart"></button>
           </div>
         </article>   
       </section>
@@ -74,17 +71,16 @@
       <p class="footer__copyright">&copy; 2021 Mesto Russia</p>
     </footer>
     <div class="popup">
-      <div class="popup__overlay"></div>
-      <form class="popup__content">
-        <img src="./images/Close_Icon.svg" class="popup__close-button" alt="креcтик">
-        <div class="popup__title">Редактировать профиль</div>
-        <input type="text" class="popup__name">
-        <div class="popup__line"></div>
-        <input type="text" class="popup__job">
-        <div class="popup__line"></div>
-        <button type="submit" class="popup__save-button">Сохранить</button>
-      </form>
+      <div class="popup__content">
+        <button type="button" class="popup__close-button"><img src="./images/Close_Icon.svg"></button> 
+        <h2 class="popup__title">Редактировать профиль</h2>
+        <form name="popup">
+          <input type="text" class="popup__name popup__input">
+          <input type="text" class="popup__job popup__input">
+          <button type="submit" class="popup__save-button">Сохранить</button>
+        </form>
+      </div>
     </div>
-    <script src="./scripts/scripts.js"></script>
+    <script src="./scripts/index.js"></script>
   </body>
 </html>

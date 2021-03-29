@@ -1,8 +1,14 @@
 .profile__vector {
   border: 1px solid #FFFFFF;
   padding: 7px;
-  width: 10px;
   margin-left: 18px;
+  width: 24px;
+  height: 24px;
+  border: 1px solid #FFFFFF;
+  display: flex;
+  align-items: center;
+  background-color: #000000;
+  align-self: flex-end;
 }
 
 .profile__vector:hover {
@@ -11,8 +17,6 @@
 
 @media screen and (max-width: 900px) {
   .profile__vector {
-    width: 5px;
-    height: 5px;
     margin-left: 10px;
   }
 }
