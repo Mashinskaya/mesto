@@ -33,21 +33,3 @@ function formSubmitHandler (evt) {
 };
 formElement.addEventListener('submit', formSubmitHandler); 
 
-
-let name = document.querySelector('.profile__title');
-
-let job = document.querySelector('.profile__subtitle');
-
-let inputName = document.querySelector('.popup__name');
-
-let inputJob = document.querySelector('.popup__job');
-
-function formSubmitHandler (evt) {
-  evt.preventDefault();
-
-name.textContent = name.value;
-job.textContent = job.value;
-nameInput.textContent = name.value;
-jobInput.textContent = job.value;
-
-};
