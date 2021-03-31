@@ -1,6 +1,6 @@
 let popup = document.querySelector('.popup');
 
-let openPopupBtn = document.querySelector('.profile__popup_btn');
+let openPopupBtn = document.querySelector('.profile__btn');
 
 let closePopupBtn = document.querySelector('.popup__close-button');
 let savePopupBtn = document.querySelector('.popup__save-button');
