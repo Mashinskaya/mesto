@@ -1,6 +1,8 @@
 .header__logo {
   align-self: flex-start;
   opacity: 1.0;
+  width: 142px;
+  height: 33px;
 }
 
 .header__logo:hover {

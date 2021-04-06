@@ -8,11 +8,12 @@
   align-items: center;
   justify-content: center;
   margin-top: 39px;
+  margin-left: 26px;
   flex: 0 0 auto;
 }
 
 .profile__add-button:hover {
-  opacity: 0.8;
+  opacity: 0.6;
 }
 
 @media screen and (max-width: 900px) {

@@ -3,8 +3,7 @@
   padding: 45px 0 0;
   min-height: 74px;
   max-width: 880px;
-  border-bottom: 1px solid #545454;
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0.70);
+  border-bottom: 1px solid rgba(54, 54, 54, 0.7);
   margin: 0 auto;
 }
 

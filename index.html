@@ -8,7 +8,7 @@
 </head>
   <body class="page">
     <header class="header">
-      <a href="#" class="header__logo" target="_blank" rel="noopener"><img src="./images/header__logo.png" alt="место"></a>
+      <a href="#" class="header__logo" target="_blank" rel="noopener"><img src="./images/MestoLogo.svg" alt="место"></a>
     </header>
     <main class="main">
       <section class="profile">
@@ -16,7 +16,7 @@
         <div class="profile__info">
           <div class="profile__container">
            <h1 class="profile__title">Жак-Ив Кусто</h1>
-           <button type="button" class="profile__vector profile__btn"><img src="./images/pen.svg" alt="ручка"></button>  
+           <button class="profile__vector"><img src="./images/pen.svg" alt="ручка"></button>  
           </div> 
            <p class="profile__subtitle">Исследователь океана</p>  
         </div>  
@@ -26,28 +26,28 @@
         <article class="cards__item">
           <img src="./images/kirill-pershin-1088404-unsplash.png" class="cards__image" alt="замок">
           <div class="cards__container">
-            <span class="cards__title">Карачаевск</span>
+            <h2 class="cards__title">Карачаевск</h2>
             <button type="button" class="cards__heart"></button>
           </div>
         </article>  
         <article class="cards__item">
           <img src="./images/kirill-pershin-1404681-unsplash.png" class="cards__image" alt="долина">
           <div class="cards__container">
-            <span class="cards__title">Гора Эльбрус</span>
+            <h2 class="cards__title">Гора Эльбрус</h2>
             <button type="button" class="cards__heart"></button>
           </div>
         </article>  
         <article class="cards__item">
           <img src="./images/kirill-pershin-1556355-unsplash.png" class="cards__image" alt="гора">
           <div class="cards__container">
-            <span class="cards__title">Домбай</span>
+            <h2 class="cards__title">Домбай</h2>
             <button type="button" class="cards__heart"></button>
           </div>
         </article>  
         <article class="cards__item">
           <img src="./images/kirill-pershin-1404681-unsplash.png" class="cards__image" alt="замок">
           <div class="cards__container">
-            <span class="cards__title">Гора Эльбрус</span>
+            <h2 class="cards__title">Гора Эльбрус</h2>
             <button type="button" class="cards__heart"></button>
           </div>
         </article>  
@@ -61,7 +61,7 @@
         <article class="cards__item">
           <img src="./images/kirill-pershin-1088404-unsplash.png" class="cards__image" alt="замок">
           <div class="cards__container">
-            <span class="cards__title">Карачаево-Черкессия</span>
+            <h2 class="cards__title">Карачаево-Черкессия</h2>
             <button type="button" class="cards__heart"></button>
           </div>
         </article>   
@@ -74,9 +74,9 @@
       <div class="popup__content">
         <button type="button" class="popup__close-button"><img src="./images/Close-icon.svg" alt="крестик"></button> 
         <h2 class="popup__title">Редактировать профиль</h2>
-        <form name="popup">
-          <input type="text" class="popup__name popup__input" placeholder="Жак-Ив Кусто">
-          <input type="text" class="popup__job popup__input" placeholder="Исследователь океана">
+        <form name="popup" class="popup__form">
+          <input type="text" class="popup__input popup__input_name" placeholder="Ваше имя">
+          <input type="text" class="popup__input popup__input_job" placeholder="Ваша профессия">
           <button type="submit" class="popup__save-button">Сохранить</button>
         </form>
       </div>
