@@ -3,6 +3,7 @@
   opacity: 1.0;
   width: 142px;
   height: 33px;
+  background-image: url(../../../images/MestoLogoDesk.svg);
 }
 
 .header__logo:hover {
@@ -14,5 +15,6 @@
     width: 104px;
     height: 25px;
     margin: 28px 27px;
+    background-image: url(../../../images/MestoLogo.svg);
   }
 }

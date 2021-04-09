@@ -1,13 +1,14 @@
 .profile__vector {
   border: 1px solid #FFFFFF;
   padding: 7px;
-  margin: 0 0 7px 18px;
+  margin: 15px;
   width: 24px;
   height: 24px;
   display: flex;
-  align-items: center;
   background-color: #000000;
-  align-self: flex-end;
+  background-image: url(../../../images/pen.png);
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .profile__vector:hover {
@@ -16,6 +17,10 @@
 
 @media screen and (max-width: 900px) {
   .profile__vector {
-    margin-left: 10px;
+    padding: 5px;
+    margin: 7px;
+    width: 18px;
+    height: 18px;
+    background-image: url(../../../images/penMobile.svg);
   }
 }
