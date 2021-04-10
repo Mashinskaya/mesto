@@ -11,8 +11,8 @@ let jobElement = document.querySelector('.profile__subtitle');
 
 function openPopup() {
   popup.classList.add('popup_visible');
-  nameElement.value = nameInput.textContent;
-  jobElement.value = jobInput.textContent;
+  nameInput.value = nameElement.textContent;
+  jobInput.value = jobElement.textContent;
 }
 function closePopup() {
   popup.classList.remove('popup_visible')
