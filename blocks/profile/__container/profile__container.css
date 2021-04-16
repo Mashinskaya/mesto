@@ -1,12 +1,13 @@
 .profile__container {
-  max-width: 356px;
+  
   padding-top: 26px;
   display: flex;
-  flex-direction: row;
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 900px) {
   .profile__container {
-    min-width: 220px;
+    width: 240px;
+    justify-content: center;
+    margin-left: 46px;
 }
 }
