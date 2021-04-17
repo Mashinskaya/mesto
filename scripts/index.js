@@ -10,12 +10,12 @@ let nameElement = document.querySelector('.profile__title');
 let jobElement = document.querySelector('.profile__subtitle');
 
 function openPopup() {
-  popup.classList.add('popup__visible');
+  popup.classList.add('popup_visible');
   nameInput.value = nameElement.textContent;
   jobInput.value = jobElement.textContent;
 }
 function closePopup() {
-  popup.classList.remove('popup__visible')
+  popup.classList.remove('popup_visible')
 }
 
 openPopupBtn.addEventListener('click', openPopup) 
